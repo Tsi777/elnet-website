@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background: linear-gradient(to bottom, #f1fbf3, #e3f6e6);
+    min-height: 100%;
+  }
+
+  :root {
+    --surface-light: #ffffff;
+    --surface-overlay: rgba(255, 255, 255, 0.9);
+    --surface-overlay-80: rgba(255, 255, 255, 0.8);
+    --surface-overlay-70: rgba(255, 255, 255, 0.7);
+    --surface-overlay-60: rgba(255, 255, 255, 0.6);
+    --surface-overlay-50: rgba(255, 255, 255, 0.5);
+    --surface-overlay-40: rgba(255, 255, 255, 0.4);
+    --surface-overlay-30: rgba(255, 255, 255, 0.3);
+  }
+
+  body {
+    @apply font-sans antialiased;
+    background: linear-gradient(to bottom, #f1fbf3, #e3f6e6);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  #root {
+    background: linear-gradient(to bottom, #f1fbf3, #e3f6e6);
+    min-height: 100vh;
+  }
+
+  .bg-white {
+    background-color: #ffffff !important;
+  }
+
+  .bg-white\/90 {
+    background-color: var(--surface-overlay) !important;
+  }
+
+  .bg-white\/80 {
+    background-color: var(--surface-overlay-80) !important;
+  }
+
+  .bg-white\/70 {
+    background-color: var(--surface-overlay-70) !important;
+  }
+
+  .bg-white\/60 {
+    background-color: var(--surface-overlay-60) !important;
+  }
+
+  .bg-white\/50 {
+    background-color: var(--surface-overlay-50) !important;
+  }
+
+  .bg-white\/40 {
+    background-color: var(--surface-overlay-40) !important;
+  }
+
+  .bg-white\/30 {
+    background-color: var(--surface-overlay-30) !important;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent;
+  }
+
+  .heading-display {
+    font-family: 'Clash Display', 'Poppins', sans-serif;
+    letter-spacing: 0.05em;
+  }
+}
