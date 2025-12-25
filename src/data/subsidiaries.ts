@@ -39,7 +39,7 @@ export const subsidiaries: Subsidiary[] = [
   {
     id: 'eltaxi',
     name: 'ElTaxi Trading PLC',
-    description: 'Ayigna ride-hailing ecosystem digitizing mobility with payments, fleet logistics, and driver network services.',
+    description: 'Taxiye ride-hailing ecosystem digitizing mobility with payments, fleet logistics, and driver network services.',
     products: ['Taxiye App', 'Ride-Hailing Platform'],
     services: ['Ride Booking', 'Driver Network', 'Fleet Management'],
     contact: {
