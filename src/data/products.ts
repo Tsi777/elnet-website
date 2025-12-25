@@ -6,7 +6,7 @@ export const products: Service[] = [
         title: 'Elnet Ride-Hailing ',
         description: 'Our Elnet Ride-Hailing platform transforms urban mobility through cutting-edge technology and user-friendly experiences, offering intelligent transportation solutions.',
         details:
-            'Ayigna optimizes dispatching, driver earnings, and passenger safety with AI-powered routing, multi-wallet payments, and 24/7 support, setting new standards in urban transportation.',
+            'Taxiye optimizes dispatching, driver earnings, and passenger safety with AI-powered routing, multi-wallet payments, and 24/7 support, setting new standards in urban transportation.',
         category: 'Technology',
         subsidiaryIds: ['eltaxi'],
     },
