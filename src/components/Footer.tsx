@@ -88,7 +88,7 @@ export const Footer: React.FC = () => {
                   />
                 </svg>
                 <div>
-                  <p className="text-gray-800 leading-relaxed">4 Kilo, Berges Clinic 5th Floor</p>
+                  <p className="text-gray-800 leading-relaxed">4 Kilo, Berges Clinic 4th Floor</p>
                   <p className="text-gray-700">Addis Ababa, Ethiopia</p>
                 </div>
               </div>

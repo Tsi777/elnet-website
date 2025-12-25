@@ -32,18 +32,18 @@ export const subsidiaries: Subsidiary[] = [
     products: ['SKD Vehicles', 'Automotive Parts', 'Engineering Solutions'],
     services: ['Vehicle Assembly', 'Engineering Support', 'After-Sales Support'],
     contact: {
-      email: 'info@elauto.com',
+      email: 'info@elautoas.com',
     },
     status: 'operational',
   },
   {
     id: 'eltaxi',
-    name: 'ElTaxi Trading PLC (Taxiye)',
-    description: 'Taxiye ride-hailing ecosystem digitizing mobility with payments, fleet logistics, and driver network services.',
-    products: ['Taxiye App', 'Ride-Hailing Platform'],
+    name: 'ElTaxi Trading PLC (Ayigna)',
+    description: 'Ayigna ride-hailing ecosystem digitizing mobility with payments, fleet logistics, and driver network services.',
+    products: ['Ayigna App', 'Ride-Hailing Platform'],
     services: ['Ride Booking', 'Driver Network', 'Fleet Management'],
     contact: {
-      email: 'info@taxiye.com',
+      email: 'info@Taxiye.com',
     },
     status: 'operational',
   },
@@ -54,19 +54,20 @@ export const subsidiaries: Subsidiary[] = [
     products: ['Micro Loans', 'Savings Accounts', 'Financial Products'],
     services: ['Microfinance', 'Financial Inclusion', 'Community Banking'],
     contact: {
-      email: 'info@elsabi.com',
+      email: 'info@elsabi.net',
     },
     status: 'operational',
   },
   {
     id: 'elnet-csr',
-    name: 'ELNET CSR & Community Initiatives',
+    name: 'Elnet Foundation',
     description: 'Corporate social responsibility programs focused on education, emergency response, community development and environmental sustainability.',
     products: [],
     services: ['Education Initiatives', 'Emergency Response', 'Community Development', 'Environmental Programs'],
     contact: {
       email: 'csr@elnetgroup.com',
     },
+    website: 'https://www.elnetfoundation.com',
     status: 'operational',
   },
 

@@ -3,10 +3,10 @@ import { Service } from '../types';
 export const products: Service[] = [
     {
         id: 'elnet-ride',
-        title: 'Elnet Ride-Hailing (ayigna)',
-        description: 'Our Taxiye platform transforms urban mobility through cutting-edge technology and user-friendly experiences, offering intelligent transportation solutions.',
+        title: 'Elnet Ride-Hailing (Ayigna)',
+        description: 'Our Ayigna platform transforms urban mobility through cutting-edge technology and user-friendly experiences, offering intelligent transportation solutions.',
         details:
-            'Taxiye optimizes dispatching, driver earnings, and passenger safety with AI-powered routing, multi-wallet payments, and 24/7 support, setting new standards in urban transportation.',
+            'Ayigna optimizes dispatching, driver earnings, and passenger safety with AI-powered routing, multi-wallet payments, and 24/7 support, setting new standards in urban transportation.',
         category: 'Technology',
         subsidiaryIds: ['eltaxi'],
     },

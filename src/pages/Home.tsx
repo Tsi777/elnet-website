@@ -359,8 +359,23 @@ export const Home: React.FC = () => {
                     <div className="mt-auto pt-6">
                       <div className="rounded-2xl border border-primary-50/70 bg-primary-50/40 p-4 text-sm">
                         <div className="mb-4 h-[3px] w-full bg-gradient-to-r from-transparent via-primary-200 to-transparent" />
-                        <p className="text-xs uppercase tracking-[0.35em] text-gray-400">Contact</p>
-                        <p className="mt-2 font-semibold text-gray-800">{contactLabel}</p>
+                        <p className="text-xs uppercase tracking-[0.35em] text-gray-400">
+                          {subsidiary.website ? 'Website' : 'Contact'}
+                        </p>
+                        <p className="mt-2 font-semibold text-gray-800">
+                          {subsidiary.website ? (
+                            <a
+                              href={subsidiary.website.startsWith('http') ? subsidiary.website : `https://${subsidiary.website}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-primary-600 hover:text-primary-700 hover:underline transition-colors"
+                            >
+                              {subsidiary.website.replace(/^https?:\/\//, '')}
+                            </a>
+                          ) : (
+                            contactLabel
+                          )}
+                        </p>
                       </div>
                     </div>
                   </div>
