@@ -74,7 +74,7 @@ function App() {
               <>
                 <SEO
                   title="Contact Us"
-                  description="Get in touch with ELNET Technologies. Located at 4 Kilo, Berges Clinic 5th Floor, Addis Ababa, Ethiopia. Phone: +251 930 033 302."
+                  description="Get in touch with ELNET Technologies. Located at 4 Kilo, Berges Clinic 4th Floor, Addis Ababa, Ethiopia. Phone: +251 930 033 302."
                   keywords={['Contact', 'Address', 'Phone', 'Email']}
                 />
                 <Contact />
