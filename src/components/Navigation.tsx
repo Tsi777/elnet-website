@@ -10,7 +10,6 @@ type NavLink = {
 
 const NAV_LINKS: NavLink[] = [
   { path: '/', label: 'Home' },
-  { path: '/', label: 'Why ELNET', hash: '#why-this-company' },
   { path: '/', label: 'Services', hash: '#services' },
   { path: '/', label: 'Products', hash: '#products' },
   { path: '/', label: 'Subsidiaries', hash: '#subsidiaries' },
@@ -20,7 +19,6 @@ const NAV_LINKS: NavLink[] = [
 
 const SECTION_TITLES: Record<string, string> = {
   home: 'Home',
-  'why-this-company': 'Why ELNET',
   services: 'Services',
   products: 'Products',
   subsidiaries: 'Subsidiaries',
